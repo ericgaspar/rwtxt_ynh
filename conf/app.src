@@ -1,7 +1,7 @@
-SOURCE_URL=url of app's source
-SOURCE_SUM=sha256 checksum
+SOURCE_URL=https://github.com/schollz/rwtxt/archive/v1.8.5.zip
+SOURCE_SUM=f8d12b05b9c1af5b051d2970a3dd23443ab5bb943129834f81a2fc6417ce060a
 SOURCE_SUM_PRG=sha256sum
-SOURCE_FORMAT=tar.gz
+SOURCE_FORMAT=zip
 SOURCE_IN_SUBDIR=true
 SOURCE_FILENAME=
 SOURCE_EXTRACT=true
