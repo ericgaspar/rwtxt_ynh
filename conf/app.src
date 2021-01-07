@@ -1,6 +1,6 @@
 SOURCE_URL=https://github.com/schollz/cowyo/releases/download/v2.12.0/cowyo_linux_amd64
 SOURCE_SUM=c2f43c87fc3ff73a6a7d12d9db7146c37375a94ecc5f37ae7b1f00b34782e241
 SOURCE_SUM_PRG=sha256sum
-SOURCE_IN_SUBDIR=true
+#SOURCE_IN_SUBDIR=true
 SOURCE_FILENAME=cowyo
 #SOURCE_EXTRACT=true
