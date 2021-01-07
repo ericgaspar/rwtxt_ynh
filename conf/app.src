@@ -1,10 +1,6 @@
-#SOURCE_URL=https://github.com/schollz/rwtxt/archive/v1.8.5.zip
-#SOURCE_SUM=f8d12b05b9c1af5b051d2970a3dd23443ab5bb943129834f81a2fc6417ce060a
-
 SOURCE_URL=https://github.com/schollz/cowyo/releases/download/v2.12.0/cowyo_linux_amd64
 SOURCE_SUM=c2f43c87fc3ff73a6a7d12d9db7146c37375a94ecc5f37ae7b1f00b34782e241
 SOURCE_SUM_PRG=sha256sum
-#SOURCE_FORMAT=zip
 SOURCE_IN_SUBDIR=true
 SOURCE_FILENAME=cowyo
 #SOURCE_EXTRACT=true
