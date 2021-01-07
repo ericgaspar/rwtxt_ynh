@@ -1,17 +1,17 @@
-# rwtxt for YunoHost
+# Cowyo for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/rwtxt.svg)](https://dash.yunohost.org/appci/app/rwtxt) ![](https://ci-apps.yunohost.org/ci/badges/rwtxt.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/rwtxt.maintain.svg)  
-[![Install rwtxt with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=rwtxt)
+[![Integration level](https://dash.yunohost.org/integration/cowyo.svg)](https://dash.yunohost.org/appci/app/cowyo) ![](https://ci-apps.yunohost.org/ci/badges/cowyo.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/cowyo.maintain.svg)  
+[![Install cowyo with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=cowyo)
 
 *[Lire ce readme en français.](./README_fr.md)*
 
-> *This package allows you to install rwtxt quickly and simply on a YunoHost server.  
+> *This package allows you to install cowyo quickly and simply on a YunoHost server.  
 If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/install) to learn how to install it.*
 
 ## Overview
 Quick description of this app.
 
-**Shipped version:** 1.0
+**Shipped version:** 2.11.0-3
 
 ## Screenshots
 
