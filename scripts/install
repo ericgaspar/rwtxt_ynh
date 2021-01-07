@@ -96,10 +96,10 @@ ynh_system_user_create --username=$app
 #=================================================
 # SETUP SYSTEMD
 #=================================================
-ynh_script_progression --message="Configuring a systemd service..." --time --weight=1
+# ynh_script_progression --message="Configuring a systemd service..." --time --weight=1
 
-# Create a dedicated systemd config
-ynh_add_systemd_config
+# # Create a dedicated systemd config
+# ynh_add_systemd_config
 
 #=================================================
 # GENERIC FINALIZATION
@@ -113,17 +113,17 @@ chown -R root: $final_path
 #=================================================
 # INTEGRATE SERVICE IN YUNOHOST
 #=================================================
-ynh_script_progression --message="Integrating service in YunoHost..." --time --weight=1
+# ynh_script_progression --message="Integrating service in YunoHost..." --time --weight=1
 
-yunohost service add $app --description="A short description of the app" --log="/var/log/$app/$app.log"
+# yunohost service add $app --description="A short description of the app" --log="/var/log/$app/$app.log"
 
-#=================================================
-# START SYSTEMD SERVICE
-#=================================================
-ynh_script_progression --message="Starting a systemd service..." --time --weight=1
+# #=================================================
+# # START SYSTEMD SERVICE
+# #=================================================
+# ynh_script_progression --message="Starting a systemd service..." --time --weight=1
 
-# Start a systemd service
-ynh_systemd_action --service_name=$app --action="start" --log_path="/var/log/$app/$app.log"
+# # Start a systemd service
+# ynh_systemd_action --service_name=$app --action="start" --log_path="/var/log/$app/$app.log"
 
 #=================================================
 # SETUP SSOWAT
